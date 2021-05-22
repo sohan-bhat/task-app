@@ -30,8 +30,7 @@ body {
     position: absolute;
 }
 
-
-.primary-nav{
+.primary-nav {
     position: relative;
     margin-right: 15rem;
     margin-left: 0;
@@ -109,7 +108,6 @@ nav li a {
     color: white;
     text-decoration: none;
     display: block;
-    padding: 1.3em;
     text-align: right;
 }
 
@@ -306,26 +304,109 @@ nav li a:hover {
     text-decoration: underline;
 }
 
-@media only screen and (min-width: 1080px) {
+.form__button:hover {
+    background: var(--primary-color-dark);
+}
 
-    .navbar {
-        display: flex;
-        width: 54.9rem
-    }
+.form__button:active {
+    transform: scale(0.98);
+}
 
-    .go-premium-cta {
-        font-size: 1em;
-        width: 9em;
-    }
+.form__text {
+    text-align: center;
+}
 
+.form__link {
+    color: var(--color-secondary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form__link:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 375px) {
+    
     .container {
-        padding-right: 10em;
+        margin-bottom: 6em;
     }
 
 }
 
-@media only screen and (min-width: 1220px) {
+@media only screen and (min-width: 540px) {
+
     .navbar {
-        width: 64.2rem;
+        width: 19em;
     }
+
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .container {
+        padding: 5pc
+    }
+
+    .navbar {
+        width: 59em;
+        display: flex;
+    }
+
+    .logo {
+        transition: 100ms;
+        transform: scale(1);
+    }
+    
+    .logo:hover, .logo:focus {
+        transform: scale(1.1);
+    }
+
+}
+
+@media only screen and (min-width: 1020px) {
+
+    .container {
+        margin: 0;
+    }
+
+    .navbar {
+        width: 49em;
+    }
+
+}
+
+@media only screen and (min-width: 1080px) {
+    .navbar {
+        display: flex;
+        width: 54.9rem
+    }
+    .go-premium-cta {
+        font-size: 1em;
+        width: 9em;
+    }
+    .container {
+        padding-right: 10em;
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+
+    .navbar {
+        width: 83.4rem;
+    }
+
+    .container {
+        display: flex;
+        padding-right: 12.5em;
+    }
+
+    .form__input {
+        width: 20em;
+    }
+
+    .form__button {
+        width: 15em;
+    }
+
 }

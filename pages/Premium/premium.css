@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
 :root {
-  --primary-color: #007AF3;
-  --heading-font-family: 'Poppins', sans-serif;
-  --body-font-family: 'Lato', sans-serif;
+    --primary-color: #007AF3;
+    --heading-font-family: 'Poppins', sans-serif;
+    --body-font-family: 'Lato', sans-serif;
 }
 
 body {
-  margin: 0;
-  background-color: #F8F9FB;
-  font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #F8F9FB;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* ////////////////////////////// */
@@ -19,149 +19,149 @@ body {
 /* ////////////////////////////// */
 
 .price-comparison {
-  margin: 0;
-  padding: 0;
-  font-family: var(--body-font-family);
-  min-width: 100vh;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: var(--body-font-family);
-  width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: var(--body-font-family);
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--body-font-family);
+    width: 100%;
 }
 
 .price-column {
-  background-color: white;
-  box-shadow: 0 7px 30px rgba(52, 31, 97, 0.1);
-  padding: 2rem;
-  flex-grow: 1;
-  flex-basis: 0;
-  max-width: 275px;
-  border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 7px 30px rgba(52, 31, 97, 0.1);
+    padding: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 275px;
+    border-radius: 8px;
 }
 
 .price-column.best-seller {
-  position: relative;
-  background-color: var(--primary-color);
-  box-shadow: 0 7px 30px rgba(60, 13, 135, 0.3);
-  color: white;
-  margin-top: -1.5rem;
-  padding-top: 3.5rem;
-  margin-bottom: -1.5rem;
-  padding-bottom: 3.5rem;
+    position: relative;
+    background-color: var(--primary-color);
+    box-shadow: 0 7px 30px rgba(60, 13, 135, 0.3);
+    color: white;
+    margin-top: -1.5rem;
+    padding-top: 3.5rem;
+    margin-bottom: -1.5rem;
+    padding-bottom: 3.5rem;
 }
 
 .price-column:first-child {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .price-column:last-child {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .price-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: var(--heading-font-family);
-  font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
 }
 
 .price {
-  font-size: 3.5rem;
-  display: flex;
+    font-size: 3.5rem;
+    display: flex;
 }
 
 .dollar-sign {
-  font-size: 1.5rem;
-  margin-top: .5rem;
-  margin-right: .25rem;
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    margin-right: .25rem;
 }
 
 .per-month {
-  font-size: .75rem;
-  align-self: flex-end;
-  margin-bottom: 1.1rem;
-  text-transform: uppercase;
+    font-size: .75rem;
+    align-self: flex-end;
+    margin-bottom: 1.1rem;
+    text-transform: uppercase;
 }
 
 .plan-name {
-  text-transform: uppercase;
-  font-size: .9rem;
-  margin-top: 1rem;
-  margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
 }
 
 .divider {
-  height: 1px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, .2);
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .price-column.best-seller .divider {
-  background-color: rgba(255, 255, 255, .2);
+    background-color: rgba(255, 255, 255, .2);
 }
 
 .feature {
-  display: flex;
-  align-items: center;
-  margin: .5rem;
+    display: flex;
+    align-items: center;
+    margin: .5rem;
 }
 
 .feature img {
-  height: 1.1em;
-  width: 1.1em;
-  margin-right: .5rem;
+    height: 1.1em;
+    width: 1.1em;
+    margin-right: .5rem;
 }
 
 .feature.inactive {
-  color: #999;
-  text-decoration-line: line-through;
+    color: #999;
+    text-decoration-line: line-through;
 }
 
 .most-popular {
-  position: absolute;
-  top: .5rem;
-  left: .5rem;
-  right: .5rem;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: var(--heading-font-family);
-  color: yellow;
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    right: .5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--heading-font-family);
+    color: yellow;
 }
 
 .plan-icon img {
-  width: 4rem
+    width: 4rem
 }
 
 .cta {
-  border: none;
-  background-color: var(--primary-color);
-  color: white;
-  width: 100%;
-  padding: .75rem 1rem;
-  cursor: pointer;
-  font-family: var(--heading-font-family);
-  font-weight: bold;
-  border-radius: 4px;
-  margin-top: 3rem;
-  transition: 100ms;
-  transform: scale(1);
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    width: 100%;
+    padding: .75rem 1rem;
+    cursor: pointer;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 3rem;
+    transition: 100ms;
+    transform: scale(1);
 }
 
 .price-column.best-seller .cta {
-  background-color: white;
-  color: var(--primary-color);
+    background-color: white;
+    color: var(--primary-color);
 }
 
 .cta:hover, .cta:focus {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* ////////////////////////////// */
@@ -171,154 +171,154 @@ body {
 /* ////////////////////////////// */
 
 .navbar {
-  background: white;
-  padding: 1em;
+    background: white;
+    padding: 1em;
 }
 
 .navbar .logo {
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-  font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
 }
 
 .navbar .logo span {
-  color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 .logo {
-  transition: 100ms;
-  transform: scale(1);
+    transition: 100ms;
+    transform: scale(1);
 }
 
 .logo:hover, .logo:focus {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .navbar nav {
-  display: none;
+    display: none;
 }
 
 .navbar .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  place-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-content: space-between;
 }
 
 .navbar .mobile-menu {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 a {
-  color: #444444;
+    color: #444444;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 section {
-  padding: 5em 2em;
+    padding: 5em 2em;
 }
 
 nav.menu-btn {
-  display: block;
+    display: block;
 }
 
 nav {
-  position: fixed;
-  z-index: 999;
-  width: 66%;
-  right: 0;
-  top: 0;
-  background: #20272E;
-  height: 100vh;
-  padding: 1em;
+    position: fixed;
+    z-index: 999;
+    width: 66%;
+    right: 0;
+    top: 0;
+    background: #20272E;
+    height: 100vh;
+    padding: 1em;
 }
 
 nav ul.primary-nav {
-  margin-top: 5em;
+    margin-top: 5em;
 }
 
 nav li a {
-  color: white;
-  text-decoration: none;
-  display: block;
-  padding: 1.3em;
-  text-align: right;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1.3em;
+    text-align: right;
 }
 
 nav li a:hover {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .mobile-menu-exit {
-  float: right;
-  margin: .5em;
-  cursor: pointer;
+    float: right;
+    margin: .5em;
+    cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
-  .mobile-menu, .mobile-menu-exit {
-    display: none;
-  }
-  .navbar .container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 180px auto;
-    grid-template-columns: 180px auto;
-    -webkit-box-pack: unset;
-    -ms-flex-pack: unset;
-    justify-content: unset;
-  }
-  .navbar nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    background: none;
-    position: unset;
-    height: auto;
-    width: 100%;
-    padding: 0;
-  }
-  .navbar nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .navbar nav a {
-    color: black;
-    font-size: 1em;
-    padding: .1em 1em;
-  }
-  .navbar nav ul.primary-nav {
-    margin: 0;
-  }
-  .navbar nav li.current a {
-    font-weight: bold;
-  }
-  .navbar nav li.go-premium-cta a {
-    color: var(--primary-color);
-    border: 3px solid var(--primary-color);
-    font-weight: bold;
-    border-radius: 5em;
-    margin-top: -.2em;
-  }
-  .navbar nav li.go-premium-cta a:hover {
-    background: var(--primary-color);
-    color: white;
-  }
+    .mobile-menu, .mobile-menu-exit {
+        display: none;
+    }
+    .navbar .container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 180px auto;
+        grid-template-columns: 180px auto;
+        -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+        justify-content: unset;
+    }
+    .navbar nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        background: none;
+        position: unset;
+        height: auto;
+        width: 100%;
+        padding: 0;
+    }
+    .navbar nav ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .navbar nav a {
+        color: black;
+        font-size: 1em;
+        padding: .1em 1em;
+    }
+    .navbar nav ul.primary-nav {
+        margin: 0;
+    }
+    .navbar nav li.current a {
+        font-weight: bold;
+    }
+    .navbar nav li.go-premium-cta a {
+        color: var(--primary-color);
+        border: 3px solid var(--primary-color);
+        font-weight: bold;
+        border-radius: 5em;
+        margin-top: -.2em;
+    }
+    .navbar nav li.go-premium-cta a:hover {
+        background: var(--primary-color);
+        color: white;
+    }
 }
 
 @media only screen and (min-width: 1080px) {
-  .container {
-    width: 1080px;
-    margin: 0 auto;
-  }
+    .container {
+        width: 1080px;
+        margin: 0 auto;
+    }
 }
